@@ -5,7 +5,7 @@ const TARGET_URL = 'https://ru.aruodas.lt/butu-nuoma/vilniuje/?FRoomNumMin=2&FRo
 // it looks like 5293019911:AAHIMqI-hWkVNnNW8zZPHnz9MZbhCPc6zas
 const TELEGRAM_BOT_KEY = 'TELEGRAM_BOT_KEY';
 
-const TARGET_SELECTOR = 'table.list-search tr.list-row:not([style*=display]) .list-adress';
+const TARGET_SELECTOR = '.list-search-v2 .list-row-v2:not(.sort-row) .list-adress-v2';
 const REGEX_COORD = /(\d+\.\d+)%2C(\d+\.\d+)$/;
 const VILNIUS_COORD = [54.692536, 25.267392];
 

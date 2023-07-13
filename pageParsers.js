@@ -6,7 +6,7 @@ function getApartmentInfo(doc) {
 
   const link = adItem.querySelector('a').getAttribute('href');
   const address = adItem.querySelector('h3').textContent.trim();
-  const price = adItem.querySelector('.list-item-price').textContent;
+  const price = adItem.querySelector('.list-item-price-v2').textContent;
 
   return {
     link,
